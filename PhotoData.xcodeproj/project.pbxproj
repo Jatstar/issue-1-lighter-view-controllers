@@ -228,14 +228,14 @@
 				830DDCFE174614A70015841B /* PhotosViewController.m */,
 				830DDCFF174614A70015841B /* PhotosViewController.xib */,
 				830DDD02174617FE0015841B /* PhotoCell.xib */,
-				5A416BA6F139F61955B8A734 /* PhotoCell.m */,
 				5A41644672B329C01770FCEE /* PhotoCell.h */,
+				5A416BA6F139F61955B8A734 /* PhotoCell.m */,
 				17BC9A461750EC8D00736FCB /* RatingCell.xib */,
 				830DDD041746519D0015841B /* DetailsViewController.h */,
 				830DDD051746519D0015841B /* DetailsViewController.m */,
 				830DDD061746519D0015841B /* DetailsViewController.xib */,
-				5A4168CD64B1A9D8E1817D2E /* ArrayDataSource.m */,
 				5A416A69CD8F176AD362E6B0 /* ArrayDataSource.h */,
+				5A4168CD64B1A9D8E1817D2E /* ArrayDataSource.m */,
 				D2589AFB9CE73CC0AD9D1CA4 /* PhotoCell+ConfigureForPhoto.m */,
 				D2589996E957E8E4CB73DA85 /* PhotoCell+ConfigureForPhoto.h */,
 				D25892E6B979C5FC4FCDFEC5 /* Resources */,
@@ -350,7 +350,7 @@
 			name = PhotoDataTests;
 			productName = PhotoDataTests;
 			productReference = 830DDCDB174613080015841B /* PhotoDataTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -359,6 +359,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = OBJ;
+				LastTestingUpgradeCheck = 0720;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = objc.io;
 			};
